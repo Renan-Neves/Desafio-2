@@ -1,0 +1,22 @@
+body{
+    background-color: #e6e6e6;
+    margin: 0px;
+}
+
+.header{
+    width: 100%;    
+    background-color: #f8b710;
+    margin-top: 0px;  
+  }
+
+
+.corpo{
+    background-color: #ffffff;
+    margin-top: 5vh;
+    margin-left: 25vw;
+    width: 45%;
+}
+
+.texto{
+
+}
