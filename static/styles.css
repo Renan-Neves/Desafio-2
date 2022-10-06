@@ -9,19 +9,65 @@ body{
     margin-top: 0px;  
   }
 
+td {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+.corpo1{
+    background-color: #ffffff;
+    margin-top: 5vh;
+    margin-left: 1.5vw;
+    width: 35%;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+    display: inline-block;
+}
 
-.corpo{
+.mini1{
+    background-color: #ffffff;
+    margin-right: 35vw;
+    width: 15%;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+    float: right;
+}
+
+.mini2{
+    background-color: #ffffff;
+    width: 15%;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+    float: right;
+}
+
+.corpo2{
     background-color: #ffffff;
     margin-top: 5vh;
     margin-left: 25vw;
-    width: 45%;
+    width: 35%;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+}
+
+.direitos{
+    background-color: lightgray;
+    margin-top: 5vh;
+    margin-left: 25vw;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #p1{
     margin-left: 44%;
     text-align: center;
     color: darkslategray;
-    font-size: 30px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     display: inline-block;
@@ -30,8 +76,53 @@ body{
 #p2{
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     display: inline-block;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+}
+
+#titulopost{
+    color: #f8b710;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#corpopost{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#leia{
+    color: #f8b710;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+hr.linha {
+    border-top: 1px solid lightgray;
+    margin-left: 5%;
+    margin-right: 5%
+  }
+
+  #reserv{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
