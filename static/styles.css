@@ -17,6 +17,21 @@ body{
     width: 45%;
 }
 
-.texto{
+#p1{
+    margin-left: 44%;
+    text-align: center;
+    color: darkslategray;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
 
+#p2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
 }
