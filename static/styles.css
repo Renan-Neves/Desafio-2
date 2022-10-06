@@ -10,6 +10,12 @@ body{
     padding-bottom: 1%; 
   }
 
+.coluna{
+    flex-direction: column;
+    display: flex;
+    float: right;
+}
+
 .corpo1{
     background-color: #ffffff;
     margin-top: 5vh;
@@ -22,22 +28,20 @@ body{
 
 .mini1{
     background-color: #ffffff;
-    margin-right: 7vw;
+    margin-right: -1vw;
     margin-top: 5vh;
-    width: 15%;
+    width: 35%;
     padding-bottom: 0.5%;
     padding-top: 0.75%;
-    float: right;
 }
 
 .mini2{
     background-color: #ffffff;
     margin-top: 5vh;
     margin-right: 1vw;
-    width: 15%;
+    width: 35%;
     padding-bottom: 0.5%;
     padding-top: 1%;
-    float: right;
 }
 
 .corpo2{
